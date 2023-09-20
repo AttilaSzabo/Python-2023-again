@@ -1,7 +1,5 @@
 import random
 options = ["kő","papír","olló"];
-computer_points = 0;
-player_ponts = 0;
 
 while True:    
     player = input("Kérlek válassz a következők közül: Kő, Papír, Olló\n :").lower();
