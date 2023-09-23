@@ -24,10 +24,11 @@ def score(player,computer,player_score,computer_score):
         (player == "scissors" and computer == "paper")
     ):
         player_score +=1;
-        print(f"Player won! \n The score is: {player_score}");
+        print(f"Player won! \n The player score is: {player_score} \n The computer score is: {computer_score}");
+        
     else:
         computer_score +=1;
-        print(f"Computer won! \n The score is: {computer_score}");
+        print(f"Computer won! \n The player score is: {player_score} \n The computer score is: {computer_score}");
     return player_score, computer_score
     
 def ultimate_winner(j_pont,sz_pont,round):
