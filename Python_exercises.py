@@ -33,7 +33,7 @@ def bigger_number():
     for i in range(3):
         while True:
             try:
-                user = int(input("Adj számot:"))
+                user = int(input("Please enter a number!:"))
                 numbers2.append(user);
                 break;
             except ValueError:
